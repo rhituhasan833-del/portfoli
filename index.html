@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moumitannaher Rhitu | Portfolio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#f5f7fb;color:#1e293b;line-height:1.65}
+nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.95);padding:16px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e2e8f0}
+.logo{font-size:22px;font-weight:800;color:#4f46e5}
+nav a{color:#334155;text-decoration:none;margin-left:20px;font-size:14px;font-weight:600}
+.hero{min-height:88vh;display:flex;align-items:center;padding:70px 8%;background:linear-gradient(135deg,#eef2ff,#fff 55%,#ecfeff)}
+.hero-inner{max-width:1100px;width:100%;margin:auto;display:grid;grid-template-columns:1.4fr .6fr;gap:60px;align-items:center}
+.badge{display:inline-block;padding:7px 14px;border-radius:30px;background:#e0e7ff;color:#4338ca;font-weight:700;font-size:13px}
+h1{font-size:clamp(42px,6vw,72px);line-height:1.05;margin:18px 0;color:#0f172a}
+h1 span{color:#4f46e5}.hero p{font-size:18px;color:#475569;max-width:700px}
+.btn{display:inline-block;margin-top:28px;padding:13px 22px;border-radius:10px;background:#4f46e5;color:white;text-decoration:none;font-weight:700}
+.photo-wrap{text-align:center}.photo{width:310px;height:310px;object-fit:cover;border-radius:50%;border:8px solid white;box-shadow:0 20px 50px #4f46e538}
+section{max-width:1100px;margin:auto;padding:75px 7%}section h2{font-size:34px;color:#0f172a;margin-bottom:28px}
+.card{background:white;border:1px solid #e2e8f0;border-radius:18px;padding:26px;box-shadow:0 8px 25px #0f172a0d}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.edu{border-left:4px solid #6366f1}
+.edu h3,.experience h3{color:#312e81;margin-bottom:5px}.meta{color:#64748b;font-size:14px;margin-bottom:8px}
+ul{padding-left:20px}li{margin:5px 0}.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.skill{background:#eef2ff;color:#3730a3;padding:13px 16px;border-radius:12px;font-weight:700}
+.profile-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.profile-list div{padding:14px;background:#f8fafc;border-radius:10px}
+.contact{background:#0f172a;color:white;max-width:none}.contact-inner{max-width:1100px;margin:auto}.contact h2{color:white}.contact a{color:#c7d2fe}
+footer{text-align:center;padding:28px;color:#64748b;background:#f8fafc}
+@media(max-width:800px){nav a{display:none}.hero-inner{grid-template-columns:1fr;text-align:center}.hero p{margin:auto}.photo{width:230px;height:230px}.grid,.skills,.profile-list{grid-template-columns:1fr}section{padding:60px 6%}}
+</style>
+</head>
+<body>
+<nav><div class="logo">MR.</div><div>
+<a href="#about">About</a><a href="#education">Education</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+</div></nav>
+
+<header class="hero"><div class="hero-inner"><div>
+<span class="badge">EDUCATION GRADUATE • INTERN TEACHER</span>
+<h1>Hello, I'm <span>Rhitu</span>.</h1>
+<p>Moumitannaher Rhitu is an Education graduate from the University of Dhaka with an academic background in Biological Science, teaching experience, analytical ability and computer proficiency.</p>
+<a class="btn" href="#contact">Contact Me</a>
+</div><div class="photo-wrap"><img class="photo" src="rhitu.jpg" alt="Moumitannaher Rhitu"></div></div></header>
+
+<section id="about"><h2>About Me</h2><div class="card"><p>I am a motivated and analytical Education graduate from the University of Dhaka. I have completed my Bachelor's (Honours) in Education with a specialization in Biological Science and I am currently pursuing my Master's degree. I am interested in teaching, problem solving, mathematics, computer skills and continuous professional development.</p></div></section>
+
+<section id="education"><h2>Education</h2><div class="grid">
+<div class="card edu"><h3>Master's Degree — Ongoing</h3><div class="meta">University of Dhaka</div><p>Education (Biological Science)<br><strong>Currently Pursuing</strong></p></div>
+<div class="card edu"><h3>Bachelor's (Honours) in Education</h3><div class="meta">University of Dhaka • 2024</div><p>Education (Biological Science)<br><strong>CGPA: 3.69 / 4.00</strong></p></div>
+<div class="card edu"><h3>Higher Secondary Certificate</h3><div class="meta">Shahid Syed Nazrul Islam College, Mymensingh • 2020</div><p>Science<br><strong>GPA: 5.00 / 5.00</strong></p></div>
+<div class="card edu"><h3>Secondary School Certificate</h3><div class="meta">Ponguai Umed Ali High School, Tarakanda, Mymensingh • 2018</div><p>Science<br><strong>GPA: 5.00 / 5.00</strong></p></div>
+</div></section>
+
+<section id="experience"><h2>Work Experience</h2><div class="card experience"><h3>Intern Teacher</h3><div class="meta">Hazaribag Girls' School and College, Dhaka</div><ul>
+<li>Assisted in classroom teaching and learning activities.</li><li>Supported students in understanding academic topics and completing learning tasks.</li><li>Participated in classroom management and maintained a positive learning environment.</li><li>Applied academic knowledge and teaching techniques in a practical school setting.</li><li>Communicated with students and supported their educational development.</li>
+</ul></div></section>
+
+<section id="skills"><h2>Skills</h2><div class="skills">
+<div class="skill">Teaching & Classroom Management</div><div class="skill">Analytical Ability</div><div class="skill">Mathematics</div><div class="skill">Microsoft Excel</div><div class="skill">Basic Computer Skills</div><div class="skill">Communication Skills</div><div class="skill">Problem Solving</div><div class="skill">Teamwork</div><div class="skill">Student Support & Mentoring</div>
+</div></section>
+
+<section><h2>Academic Profile</h2><div class="card"><ul>
+<li>GPA 5.00 in both SSC and HSC.</li><li>Bachelor's degree from the University of Dhaka with CGPA 3.69/4.00.</li><li>Academic background in Education and Biological Science.</li><li>Practical teaching experience through an internship at a girls' school and college.</li>
+</ul></div></section>
+
+<section><h2>Personal Information</h2><div class="profile-list">
+<div><strong>Full Name</strong><br>Moumitannaher Rhitu</div><div><strong>Current Location</strong><br>Dhaka, Bangladesh</div><div><strong>Home District</strong><br>Mymensingh, Bangladesh</div><div><strong>Nationality</strong><br>Bangladeshi</div>
+</div></section>
+
+<section id="contact" class="contact"><div class="contact-inner"><h2>Let's Connect</h2>
+<p>Phone: <a href="tel:+8801825801140">01825801140</a></p><p>Email: <a href="mailto:moumitarhitu2580@gmail.com">moumitarhitu2580@gmail.com</a></p><p>Location: Dhaka, Bangladesh</p></div></section>
+<footer>© 2026 Moumitannaher Rhitu • Personal Portfolio</footer>
+</body></html>
